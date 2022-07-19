@@ -1,0 +1,54 @@
+body {
+    background-color: #19191B;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 2% 0;
+}
+
+/* navbar styles start */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo {
+    width: 10%;
+}
+
+.navbar__list {
+    display: flex;
+    list-style-type: none;
+    width: 30%;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    font-size: 18px;
+}
+
+.list__item > a {
+    text-decoration: none;
+    color: white;
+    transition: 0.8s;
+}
+
+.list__item > a:hover {
+    color: #5454D4;
+    transition: 0.8s;
+}
+
+.navbar__input {
+    width: 15%;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+/* navbar styles end */
