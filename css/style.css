@@ -52,3 +52,80 @@ body {
     border: 1px solid white;
 }
 /* navbar styles end */
+
+/* header styles start */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.header__block_left {
+    width: 40%;
+}
+
+.header__title_left {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    margin-top: 25%;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.header__desc_left {
+    font-size: 21px;
+    line-height: 2;
+}
+
+.header__btn {
+    width: 35%;
+    height: 60px;
+    background-color: #5454D4;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.btn__icon {
+    margin-left: 8px;
+}
+
+.header__block_right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.vector {
+    position: absolute;
+}
+
+#vector_1 {
+    top: 124px;
+    left: -81px;
+}
+
+#vector_2 {
+    top: 77px;
+    right: 54px;
+}
+
+#vector_3 {
+    bottom: 20px;
+    left: -130px;
+}
+
+#vector_4 {
+    bottom: 54px;
+    right: 40px;
+}
+
+/* header styles end */
