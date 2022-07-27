@@ -61,6 +61,7 @@
                 </li>
             </ul>
             <input type="text" class="navbar__input">
+            <img src="./images/navbar_btn.png" alt="error:(" class="navbar__btn_burger">
         </div>
         <!-- navbar end -->
 
@@ -159,5 +160,19 @@
         </footer>
         <!-- footer end -->
     </div>
+
+    <script>
+        let openBtn = document.querySelector('.navbar__btn_burger');
+        let closeBtn = document.querySelector('.burger-menu__btn_close');
+        let burgerMenu = document.querySelector('.burger-menu');
+
+        openBtn.addEventListener('click', () => {
+            burgerMenu.style.display = 'block';
+        });
+
+        closeBtn.addEventListener('click', () => {
+            burgerMenu.style.display = 'none';
+        });
+    </script>
 </body>
 </html>
