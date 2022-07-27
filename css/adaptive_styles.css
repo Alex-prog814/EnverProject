@@ -60,3 +60,84 @@
         width: 50%;
     }
 }
+
+@media all and (max-width: 950px) {
+    .services__title_main {
+        font-size: 40px;
+        margin-top: 70px;
+    }
+
+    .portfolio__title {
+        font-size: 50px;
+    }
+
+    .portfolio__item {
+        width: 27%;
+    }
+
+    .info-block__title {
+        font-size: 45px;
+    }
+}
+
+@media all and (max-width: 850px) {
+    .navbar__list {
+        width: 50%;
+        padding: 0;
+    }
+
+    .navbar__input {
+        width: 20%;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .header__block_left {
+        width: 80%;
+    }
+
+    .header__btn {
+        width: 30%;
+    }
+
+    .header__title_left {
+        margin-top: 10%;
+    }
+
+    .header__block_right {
+        width: 80%;
+        align-self: center;
+        margin-top: 10px;
+    }
+
+    footer {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__list {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .footer__item {
+        margin-bottom: 5px;
+    }
+
+    .footer__info {
+        margin-top: 0;
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .navbar__logo {
+        width: 15%;
+    }
+
+    
+}

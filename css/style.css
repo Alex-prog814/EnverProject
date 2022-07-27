@@ -271,3 +271,15 @@ footer {
     justify-content: space-between;
 }
 /* footer styles end */
+
+/* burger-menu styles start */
+.burger-menu {
+    /* display: none; */
+    width: 98%;
+    height: min-content;
+    background-color: #2c2c33;
+    position: absolute;
+    z-index: 1;
+    /* top:  */
+}
+/* burger-menu styles end */
